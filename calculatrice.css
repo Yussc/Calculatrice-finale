@@ -1,0 +1,85 @@
+*{
+  background-color: #C8C8C8;
+}
+
+/* Style de base pour la calculatrice */
+.calculator {
+  width: 300px;
+  margin: 0 auto;
+  border: 2px solid #333;
+  border-radius: 10px;
+  padding: 10px;
+  background-color: #1e1e1e;
+  box-shadow: 0 0 10px #666;
+}
+
+/* Style pour les boutons de la calculatrice */
+.calculator input[type="button"] {
+  width: 50px;
+  height: 50px;
+  font-size: 20px;
+  margin: 5px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  background-color: #4a4a4a;
+  color: #fff;
+  box-shadow: 0 0 5px #666;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+/* Style pour le bouton "C" */
+.calculator input[type="button"].clear {
+  background-color: #e74c3c;
+  color: #fff;
+}
+
+/* Style pour les boutons d'opérateurs */
+.calculator input[type="button"].operator {
+  background-color: #3498db;
+  color: #fff;
+}
+
+/* Style pour le bouton de retour arrière */
+.calculator input[type="button"].undo {
+  background-color: #aaa;
+  color: #fff;
+}
+
+/* Style pour les champs de texte */
+.calculator input[type="text"] {
+  width: 100%;
+  height: 50px;
+  font-size: 24px;
+  text-align: right;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  background-color: #333;
+  box-shadow: 0 0 5px #666;
+  color: #333;
+}
+
+/* Style pour l'affichage de l'opération */
+#input {
+  font-size: 16px;
+  color: #aaa;
+}
+
+/* Style pour l'affichage du résultat */
+#result {
+  font-size: 28px;
+  color: #fff;
+  height: 75px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Style pour les transitions des boutons */
+.calculator input[type="button"]:hover {
+  background-color: #667;
+  box-shadow: 0 0 10px #667;
+  color: #fff;
+}
