@@ -6,7 +6,7 @@ import { join } from 'path';
 @Controller()
 export class AppController {
   constructor(private readonly appService: AppService) {}
-
+ 
   @Get()
   indexhtml(@Res() res: Response): void {
     res.sendFile(join(__dirname, '../../calculatrice.html'));
